@@ -359,4 +359,4 @@ To add new features:
 
 ## Author
 
-Team Hackative
+Team Hacktivate
