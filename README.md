@@ -1,8 +1,8 @@
-# 💰 FinanceRisk AI - Advanced Loan Risk Assessment Platform
+# FinanceRisk AI - Advanced Loan Risk Assessment Platform
 
 An enterprise-grade AI-powered financial risk assessment platform featuring multiple ML models, explainable AI, interactive What-If analysis, and comprehensive portfolio analytics.
 
-## 🌟 Advanced Features
+## Advanced Features
 
 ### 1. **Risk Categorization** ✅
 Convert default probability into meaningful risk levels:
@@ -86,7 +86,7 @@ Borrower solvency analysis:
 - Visual representation of loan viability
 - Exponential decay model based on default probability
 
-## 🏗️ Project Architecture
+## Project Architecture
 
 ```
 FinanceRisk/
@@ -121,7 +121,7 @@ FinanceRisk/
     └── portfolio.db            # SQLite database
 ```
 
-## 🚀 Setup & Installation
+## Setup & Installation
 
 ### Prerequisites
 - Node.js 16+
@@ -170,7 +170,7 @@ npm run dev
 # Frontend runs on http://localhost:5173
 ```
 
-## 📡 API Endpoints
+## API Endpoints
 
 ### Core Prediction
 - `POST /api/predict` - Main risk prediction with all features
@@ -187,7 +187,7 @@ npm run dev
 - `GET /api/model-comparison` - Model performance metrics
 - `GET /api/feature-importance` - Feature importance scores
 
-## 📊 Prediction Response Example
+## Prediction Response Example
 
 ```json
 {
@@ -231,7 +231,7 @@ npm run dev
 }
 ```
 
-## 🎯 Key Technologies
+## Key Technologies
 
 ### Backend
 - **Express.js** - REST API framework
@@ -251,7 +251,7 @@ npm run dev
 - **joblib** - Model persistence
 - **SQLite** - Portfolio database
 
-## 📈 Model Performance
+## Model Performance
 
 All three models are trained on lending data with the following metrics:
 
@@ -261,7 +261,7 @@ All three models are trained on lending data with the following metrics:
 | XGBoost | 98.9% | 98.1% | 97.2% | 98.7% |
 | Logistic Regression | 97.8% | 96.9% | 96.1% | 97.5% |
 
-## 🔒 Security & Best Practices
+## Security & Best Practices
 
 - Environment variables for sensitive data (ML_SERVICE_URL)
 - CORS enabled for cross-origin requests
@@ -269,7 +269,7 @@ All three models are trained on lending data with the following metrics:
 - Error handling with meaningful messages
 - Database transactions for data consistency
 
-## 📋 Input Form Fields
+## Input Form Fields
 
 The risk assessment form collects:
 - **Loan Details**: Amount, Term, Interest Rate, Installment
@@ -277,7 +277,7 @@ The risk assessment form collects:
 - **Financial Metrics**: Annual Income, DTI, Credit Utilization
 - **Credit History**: Open Accounts, Total Accounts, Public Records, Mortgages
 
-## 🎨 User Experience
+## User Experience
 
 1. **Landing Page**: Feature overview and call-to-action
 2. **Assessment Form**: Easy-to-use form with quick-fill examples
@@ -287,7 +287,7 @@ The risk assessment form collects:
 6. **Analytics Dashboard**: Portfolio and model comparison views
 7. **Affordability Calculator**: Maximum loan determination
 
-## 📝 Sample Workflows
+## Sample Workflows
 
 ### Workflow 1: Basic Risk Assessment
 1. Enter financial profile
@@ -309,14 +309,14 @@ The risk assessment form collects:
 4. Get personalized recommendations
 5. Track progress over time
 
-## 🧪 Testing the System
+## Testing the System
 
 Quick test profiles:
 - **Good Profile**: Income $70K, DTI 12%, Credit Util 25%
 - **Risky Profile**: Income $25K, DTI 45%, Credit Util 95%
 - **Average Profile**: Income $50K, DTI 15%, Credit Util 50%
 
-## 📚 Feature Explanations
+## Feature Explanations
 
 ### Financial Health Score Components
 1. **Income Score** (0-100): Higher income = higher score
@@ -337,7 +337,7 @@ Calculated using exponential decay model:
 Survival(t) = 1 - (default_probability * t / loan_term)
 ```
 
-## 🎓 Learning Resources
+## Learning Resources
 
 This project demonstrates:
 - Modern React patterns with hooks
@@ -347,7 +347,7 @@ This project demonstrates:
 - Interactive data visualization
 - Financial risk modeling
 
-## 🤝 Contributing
+## Contributing
 
 To add new features:
 1. Add endpoint to `ml-service/app.py`
@@ -356,15 +356,7 @@ To add new features:
 4. Update API client in `frontend/src/services/api.js`
 5. Create UI component in `frontend/src/components/`
 
-## 📄 License
 
-ISC License
+## Author
 
-## 👨‍💻 Author
-
-FinanceRisk AI Development Team
-
----
-
-**Version**: 1.0.0 with 10 Advanced Features
-**Last Updated**: March 2026
+Team Hackative
