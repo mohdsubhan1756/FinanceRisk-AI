@@ -1,0 +1,131 @@
+# ===============================
+
+# Node.js / Frontend
+
+# ===============================
+
+node_modules/
+dist/
+dist-ssr/
+build/
+coverage/
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ===============================
+
+# Environment variables
+
+# ===============================
+
+.env
+.env.*
+*.env
+*.env.local
+
+# ===============================
+
+# Logs
+
+# ===============================
+
+logs
+*.log
+
+# ===============================
+
+# OS Files
+
+# ===============================
+
+.DS_Store
+Thumbs.db
+
+# ===============================
+
+# IDE / Editor
+
+# ===============================
+
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# ===============================
+
+# Python / ML
+
+# ===============================
+
+**pycache**/
+*.pyc
+*.pyo
+*.pyd
+
+# ML Models
+
+*.pkl
+*.joblib
+*.h5
+*.pt
+
+# ===============================
+
+# Data / Datasets
+
+# ===============================
+
+data/
+datasets/
+*.csv
+*.xlsx
+*.xls
+
+# ===============================
+
+# Databases
+
+# ===============================
+
+*.db
+*.sqlite
+*.sqlite3
+
+# ===============================
+
+# Build / Cache
+
+# ===============================
+
+.cache/
+tmp/
+temp/
+
+# ===============================
+
+# Documentation (optional)
+
+# ===============================
+
+features.md
+COMPLETION_SUMMARY.md
+FEATURES_CHECKLIST.md
+ISSUES_RESOLVED.md
+QUICKSTART.md
+
+# ===============================
+
+# Optional local folders
+
+# ===============================
+
+models/
+demo/videos/

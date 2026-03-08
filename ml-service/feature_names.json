@@ -1,0 +1,1 @@
+["loan_amnt", "term", "int_rate", "installment", "emp_length", "annual_inc", "dti", "open_acc", "pub_rec", "revol_bal", "revol_util", "total_acc", "mort_acc", "pub_rec_bankruptcies", "home_ownership", "verification_status"]
